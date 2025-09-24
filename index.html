@@ -65,7 +65,7 @@
 
     <!-- Main Content -->
     <main id="main-content">
-        <!-- Hero Section -->
+        <!-- Hero Section with Video -->
         <section id="home" class="hero">
             <div class="hero-background">
                 <video class="hero-video" autoplay muted loop playsinline>
@@ -80,19 +80,20 @@
                 <div class="hero-content">
                     <!-- Logo -->
                     <div class="hero-logo">
-                    <div class="logo-container">
-                        <img src="./images/logo.jpg" alt="Köroğlu Tarım Logo" class="logo-image">
-                    </div>
+                        <div class="logo-container">
+                            <img src="./images/logo.png" alt="Köroğlu Tarım Logo" class="logo-image">
+                        </div>
                         <h1 class="hero-title">
                             <span class="logo-text-green">KÖROĞLU</span>
                             <span class="logo-text-dark">TARIM</span>
                         </h1>
+                        <p class="hero-subtitle">Çukurova'nın Bereketli Topraklarında Sürdürülebilir Tarım</p>
                     </div>
                     
                     <!-- Navigation Buttons -->
                     <div class="hero-navigation">
                         <a href="#about" class="hero-nav-btn">
-                            <div class="nav-icon">👥</div>
+                            <div class="nav-icon">🌱</div>
                             <span>Hakkımızda</span>
                         </a>
                         <a href="#products" class="hero-nav-btn">
@@ -130,11 +131,18 @@
                 </div>
 
                 <div class="about-content">
-                    <p class="about-text">
-                        Köroğlu Tarım, Çukurova'nın bereketli topraklarında doğmuş, geleneksel üretim 
-                        anlayışını modern tarım teknikleriyle birleştiren bir şirkettir. Narenciye başta 
-                        olmak üzere bölgenin en kaliteli meyvelerini yetiştiriyoruz.
-                    </p>
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p>
+                                Köroğlu Tarım, Çukurova'nın bereketli topraklarında doğmuş, geleneksel üretim 
+                                anlayışını modern tarım teknikleriyle birleştiren bir şirkettir. Narenciye başta 
+                                olmak üzere bölgenin en kaliteli meyvelerini yetiştiriyoruz.
+                            </p>
+                        </div>
+                        <div class="about-image">
+                            <img src="./images/sustainability.jpg" alt="Sürdürülebilir tarım" loading="lazy">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="features-grid">
@@ -165,8 +173,8 @@
                             </div>
                         </div>
                         <p>
-                            Misyonumuz; doğaya saygılı üretim yapmak, tüketiciye en sağlıklı ve güvenilir 
-                            ürünleri sunmak. Vizyonumuz; Türkiye'nin tarım gücünü uluslararası pazarlarda 
+                            Doğaya saygılı üretim yapmak, tüketiciye en sağlıklı ve güvenilir 
+                            ürünleri sunmak. Türkiye'nin tarım gücünü uluslararası pazarlarda 
                             büyütürken sürdürülebilirliği ilke edinmek.
                         </p>
                     </div>
@@ -186,40 +194,6 @@
                         </p>
                     </div>
                 </div>
-
-                <div class="values-section">
-                    <div class="values-header">
-                        <div class="values-icon">💎</div>
-                        <h3>Değerlerimiz</h3>
-                        <div class="values-line"></div>
-                    </div>
-                    <div class="values-grid">
-                        <div class="value-item">
-                            <div class="value-dot"></div>
-                            <span>Doğaya saygılı üretim yöntemleri</span>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-dot"></div>
-                            <span>Kalite ve güvenilirlik</span>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-dot"></div>
-                            <span>Sürdürülebilir tarım uygulamaları</span>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-dot"></div>
-                            <span>Toplumsal sorumluluk</span>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-dot"></div>
-                            <span>İnovasyon ve teknoloji</span>
-                        </div>
-                        <div class="value-item">
-                            <div class="value-dot"></div>
-                            <span>Şeffaflık ve dürüstlük</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -227,7 +201,7 @@
         <section class="section sustainability-section">
             <div class="container">
                 <div class="section-header">
-                    <p class="section-overline">İnovasyon ve teknoloji</p>
+                    <p class="section-overline">Sürdürülebilirlik</p>
                     <h2 class="section-title">Sürdürülebilirlik Anlayışımız</h2>
                     <p class="section-description">
                         Doğaya saygılı üretim yöntemleriyle gelecek nesillere daha iyi bir dünya bırakıyoruz
@@ -240,28 +214,28 @@
                         <div class="sustainability-card">
                             <div class="sustainability-icon">🌱</div>
                             <div>
-                                <h4>Doğa dostu yöntemler, minimum kimyasal kullanımı</h4>
-                                <p>Toprağın doğal yapısını koruyarak, minimum kimyasal kullanımı ile sağlıklı ürünler yetiştiriyoruz.</p>
+                                <h4>Doğa dostu yöntemler</h4>
+                                <p>Minimum kimyasal kullanımı ile sağlıklı ürünler yetiştiriyoruz.</p>
                             </div>
                         </div>
                         <div class="sustainability-card">
                             <div class="sustainability-icon">💧</div>
                             <div>
-                                <h4>Enerji verimliliği, suyun bilinçli kullanımı</h4>
-                                <p>Damlama sulama sistemleri ve akıllı su yönetimi ile %30 su tasarrufu sağlıyoruz.</p>
+                                <h4>Su verimliliği</h4>
+                                <p>Damlama sulama sistemleri ile %30 su tasarrufu sağlıyoruz.</p>
                             </div>
                         </div>
                         <div class="sustainability-card">
                             <div class="sustainability-icon">♻️</div>
                             <div>
-                                <h4>Geri dönüşüm ve atık azaltımı</h4>
+                                <h4>Geri dönüşüm</h4>
                                 <p>Organik atıkları kompost haline getirerek toprağa geri kazandırıyoruz.</p>
                             </div>
                         </div>
                         <div class="sustainability-card">
                             <div class="sustainability-icon">🌍</div>
                             <div>
-                                <h4>Gelecek nesillere verimli topraklar</h4>
+                                <h4>Gelecek nesillere</h4>
                                 <p>Sürdürülebilir tarım uygulamaları ile toprağın verimliliğini artırıyoruz.</p>
                             </div>
                         </div>
@@ -301,7 +275,7 @@
             <div class="container">
                 <div class="section-header">
                     <p class="section-overline">Yolculuğumuz</p>
-                    <h2 class="section-title">Tarihçemiz</h2>
+                    <h2 class="section-title">Nereden Başladık, Bugün Neredeyiz</h2>
                     <p class="section-description">
                         Çukurova'nın bereketli topraklarında geçirdiğimiz yolculuk
                     </p>
@@ -314,10 +288,13 @@
                     <div class="timeline-item">
                         <div class="timeline-content">
                             <div class="timeline-card">
+                                <div class="timeline-image">
+                                    <img src="./images/portakal.jpg" alt="1970'li Adımlar" loading="lazy">
+                                </div>
                                 <div class="timeline-header">
                                     <div class="timeline-icon">🌱</div>
                                     <div>
-                                        <h3>Kuruluş</h3>
+                                        <h3>1970'li Adımlar</h3>
                                         <div class="timeline-year">1970</div>
                                     </div>
                                 </div>
@@ -330,10 +307,13 @@
                     <div class="timeline-item timeline-item-right">
                         <div class="timeline-content">
                             <div class="timeline-card">
+                                <div class="timeline-image">
+                                    <img src="./images/mandalina.jpg" alt="2000'li İlk Bahçemiz" loading="lazy">
+                                </div>
                                 <div class="timeline-header">
                                     <div class="timeline-icon">🚜</div>
                                     <div>
-                                        <h3>Modernleşme</h3>
+                                        <h3>2000'li İlk Bahçemiz</h3>
                                         <div class="timeline-year">2003</div>
                                     </div>
                                 </div>
@@ -346,11 +326,14 @@
                     <div class="timeline-item">
                         <div class="timeline-content">
                             <div class="timeline-card">
+                                <div class="timeline-image">
+                                    <img src="./images/limon.jpg" alt="2012 Şirketleşme" loading="lazy">
+                                </div>
                                 <div class="timeline-header">
                                     <div class="timeline-icon">🌍</div>
                                     <div>
-                                        <h3>Sürdürülebilirlik</h3>
-                                        <div class="timeline-year">2022</div>
+                                        <h3>2012 Şirketleşme</h3>
+                                        <div class="timeline-year">2012</div>
                                     </div>
                                 </div>
                                 <p>Sürdürülebilir tarım uygulamalarını hayata geçirdik ve çevre dostu üretim yöntemlerini benimsedik.</p>
@@ -362,11 +345,14 @@
                     <div class="timeline-item timeline-item-right">
                         <div class="timeline-content">
                             <div class="timeline-card">
+                                <div class="timeline-image">
+                                    <img src="./images/hero-bg.jpg" alt="Bugün" loading="lazy">
+                                </div>
                                 <div class="timeline-header">
                                     <div class="timeline-icon">🚀</div>
                                     <div>
-                                        <h3>Gelecek</h3>
-                                        <div class="timeline-year">Bugün</div>
+                                        <h3>Bugün</h3>
+                                        <div class="timeline-year">2025</div>
                                     </div>
                                 </div>
                                 <p>Teknoloji ve geleneksel bilgiyi harmanlayarak, gelecek nesillere daha iyi bir dünya bırakma hedefindeyiz.</p>
@@ -422,36 +408,7 @@
                     </div>
                     
                     <div class="r-d-image">
-                        <img src="./images/r-d.jpg" alt="Ar-Ge ve İnovasyon" loading="lazy">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Promotional Video Section -->
-        <section class="section video-section">
-            <div class="container">
-                <div class="section-header">
-                    <p class="section-overline">Tanıtım</p>
-                    <h2 class="section-title">Köroğlu Tarım Tanıtım Videosu</h2>
-                    <p class="section-description">
-                        Drone çekimleriyle hazırlanan tanıtım videomuzu izleyin
-                    </p>
-                    <div class="section-line"></div>
-                </div>
-
-                <div class="video-container">
-                    <div class="video-wrapper">
-                        <video class="promotional-video" controls poster="./images/video-poster.jpg">
-                            <source src="./videos/promotional-video.mp4" type="video/mp4">
-                            <source src="./videos/promotional-video.webm" type="video/webm">
-                            Tarayıcınız video oynatmayı desteklemiyor.
-                        </video>
-                        <div class="video-overlay">
-                            <button class="play-button" id="play-video">
-                                <div class="play-icon">▶</div>
-                            </button>
-                        </div>
+                        <img src="./images/sustainability.jpg" alt="Ar-Ge ve İnovasyon" loading="lazy">
                     </div>
                 </div>
             </div>

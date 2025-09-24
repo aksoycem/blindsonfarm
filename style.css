@@ -384,83 +384,17 @@ p {
     margin-bottom: var(--spacing-lg);
 }
 
-.logo-sun {
-    font-size: 4rem;
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 3;
+.logo-image {
+    max-width: 300px;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: var(--transition-normal);
 }
 
-.logo-fields {
-    position: relative;
-    width: 200px;
-    height: 60px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #8FBC8F, #AFC39A, #90EE90);
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.field-line {
-    position: absolute;
-    height: 2px;
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 1px;
-}
-
-.field-line:nth-child(1) {
-    top: 15px;
-    left: 20px;
-    right: 20px;
-}
-
-.field-line:nth-child(2) {
-    top: 30px;
-    left: 30px;
-    right: 30px;
-}
-
-.field-line:nth-child(3) {
-    top: 45px;
-    left: 25px;
-    right: 25px;
-}
-
-.logo-leaf {
-    font-size: 3rem;
-    position: absolute;
-    top: -10px;
-    right: -20px;
-    z-index: 2;
-}
-
-.logo-fruits {
-    position: absolute;
-    top: -15px;
-    left: -30px;
-    z-index: 2;
-}
-
-.fruit {
-    display: inline-block;
-    font-size: 1.2rem;
-    margin-right: 5px;
-    animation: float 3s ease-in-out infinite;
-}
-
-.fruit:nth-child(2) {
-    animation-delay: 1s;
-}
-
-.fruit:nth-child(3) {
-    animation-delay: 2s;
-}
-
-@keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+.logo-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero-title {

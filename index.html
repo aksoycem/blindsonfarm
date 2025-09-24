@@ -68,35 +68,45 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="hero-background">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="./videos/hero-video.mp4" type="video/mp4">
+                    <source src="./videos/hero-video.webm" type="video/webm">
+                    <!-- Fallback image if video doesn't load -->
+                    <img src="./images/hero-bg.jpg" alt="Köroğlu Tarım - Çukurova Tarım Arazisi">
+                </video>
                 <div class="hero-overlay"></div>
             </div>
             <div class="container">
                 <div class="hero-content">
-                    <h1 class="hero-title">
-                        Çukurova'nın Bereketli Topraklarında<br>
-                        <span class="highlight">Sürdürülebilir Tarım</span>
-                    </h1>
-                    <p class="hero-description">
-                        GlobalG.A.P adaylığı ile kaliteli narenciye, zeytin ve endüstriyel ürünler. 
-                        Su kullanımında %30 azaltım hedefi ile doğaya saygılı üretim.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#products" class="btn btn-primary">Ürünlerimizi Keşfedin</a>
-                        <a href="#contact" class="btn btn-secondary">Teklif Al</a>
+                    <!-- Logo -->
+                    <div class="hero-logo">
+                    <div class="logo-container">
+                        <img src="./images/logo.jpg" alt="Köroğlu Tarım Logo" class="logo-image">
                     </div>
-                    <div class="hero-features">
-                        <div class="feature-item">
-                            <div class="feature-dot"></div>
-                            <span>GlobalG.A.P Adayı</span>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-dot"></div>
-                            <span>25+ Yıl Deneyim</span>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-dot"></div>
-                            <span>Sürdürülebilir Üretim</span>
-                        </div>
+                        <h1 class="hero-title">
+                            <span class="logo-text-green">KÖROĞLU</span>
+                            <span class="logo-text-dark">TARIM</span>
+                        </h1>
+                    </div>
+                    
+                    <!-- Navigation Buttons -->
+                    <div class="hero-navigation">
+                        <a href="#about" class="hero-nav-btn">
+                            <div class="nav-icon">👥</div>
+                            <span>Hakkımızda</span>
+                        </a>
+                        <a href="#products" class="hero-nav-btn">
+                            <div class="nav-icon">🍊</div>
+                            <span>Ürünlerimiz</span>
+                        </a>
+                        <a href="#r-d" class="hero-nav-btn">
+                            <div class="nav-icon">🔬</div>
+                            <span>Ar-Ge</span>
+                        </a>
+                        <a href="#contact" class="hero-nav-btn">
+                            <div class="nav-icon">📞</div>
+                            <span>İletişim</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -371,6 +381,77 @@
                         <div class="message-dot"></div>
                         <span>Geleceğe Doğru Yolculuğumuz Devam Ediyor</span>
                         <div class="message-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- R&D Section -->
+        <section id="r-d" class="section r-d-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">İnovasyon ve Teknoloji</p>
+                    <h2 class="section-title">Ar-Ge Yaklaşımımız</h2>
+                    <p class="section-description">
+                        Geleceğin tarımını şekillendirecek yenilikçi ve sürdürülebilir çözümler geliştiriyoruz
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="r-d-content">
+                    <div class="r-d-text">
+                        <div class="r-d-intro">
+                            <h3>Geleceğe Yön Veren Ar-Ge Yaklaşımımız</h3>
+                            <p>
+                                Üretim faaliyetlerimizin yanı sıra, önde gelen tohum ve gübre şirketleriyle 
+                                aktif Ar-Ge çalışmaları yürütüyoruz.
+                            </p>
+                        </div>
+                        
+                        <div class="r-d-mission">
+                            <h4>Amacımız yalnızca bugünün ihtiyaçlarını karşılamak değil, geleceğin tarımını şekillendirecek yenilikçi ve sürdürülebilir çözümler geliştirmektir.</h4>
+                        </div>
+                        
+                        <div class="r-d-description">
+                            <p>
+                                Bilimsel işbirlikleri, modern teknolojiler ve uzman ekibimizle kendi üretimimizde 
+                                ve tarım ekosisteminde verimlilik, kalite ve çevre dostu uygulamaları destekliyoruz. 
+                                Ar-Ge, inovasyon kültürümüzün ve geleceğe olan sorumluluğumuzun temelini oluşturuyor.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="r-d-image">
+                        <img src="./images/r-d.jpg" alt="Ar-Ge ve İnovasyon" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotional Video Section -->
+        <section class="section video-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">Tanıtım</p>
+                    <h2 class="section-title">Köroğlu Tarım Tanıtım Videosu</h2>
+                    <p class="section-description">
+                        Drone çekimleriyle hazırlanan tanıtım videomuzu izleyin
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <video class="promotional-video" controls poster="./images/video-poster.jpg">
+                            <source src="./videos/promotional-video.mp4" type="video/mp4">
+                            <source src="./videos/promotional-video.webm" type="video/webm">
+                            Tarayıcınız video oynatmayı desteklemiyor.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-button" id="play-video">
+                                <div class="play-icon">▶</div>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

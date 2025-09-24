@@ -177,10 +177,32 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Video play functionality
+    const playButton = document.getElementById('play-video');
+    const promotionalVideo = document.querySelector('.promotional-video');
+    const videoOverlay = document.querySelector('.video-overlay');
+
+    if (playButton && promotionalVideo && videoOverlay) {
+        playButton.addEventListener('click', function() {
+            promotionalVideo.play();
+            videoOverlay.classList.add('hidden');
+        });
+
+        promotionalVideo.addEventListener('pause', function() {
+            videoOverlay.classList.remove('hidden');
+        });
+
+        promotionalVideo.addEventListener('ended', function() {
+            videoOverlay.classList.remove('hidden');
+        });
+    }
+
     // Preload critical images
     const criticalImages = [
         './images/hero-bg.jpg',
-        './images/sustainability.jpg'
+        './images/sustainability.jpg',
+        './images/r-d.jpg',
+        './images/video-poster.jpg'
     ];
 
     criticalImages.forEach(src => {

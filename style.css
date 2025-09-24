@@ -385,17 +385,27 @@ p {
     position: relative;
     display: inline-block;
     margin-bottom: var(--spacing-lg);
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
 }
 
 .logo-image {
     max-width: 300px;
     height: auto;
     transition: var(--transition-normal);
-    background: transparent;
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
 .logo-image:hover {
     transform: scale(1.05);
+    background: transparent !important;
+    background-color: transparent !important;
 }
 
 .hero-title {

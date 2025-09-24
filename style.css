@@ -351,7 +351,9 @@ p {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     z-index: 1;
+    min-height: 100vh;
 }
 
 .hero-overlay {
@@ -360,12 +362,13 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(42, 42, 42, 0.7) 0%, rgba(42, 42, 42, 0.5) 50%, transparent 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 50%, transparent 100%);
+    z-index: 2;
 }
 
 .hero-content {
     position: relative;
-    z-index: 10;
+    z-index: 20;
     text-align: center;
     color: var(--color-white);
     max-width: 1000px;
@@ -387,14 +390,12 @@ p {
 .logo-image {
     max-width: 300px;
     height: auto;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     transition: var(--transition-normal);
+    background: transparent;
 }
 
 .logo-image:hover {
     transform: scale(1.05);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero-title {
@@ -413,6 +414,15 @@ p {
 .logo-text-dark {
     color: #2A2A2A;
     display: block;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: var(--color-white);
+    margin-top: var(--spacing-md);
+    font-weight: 400;
+    opacity: 0.9;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Hero Navigation */
@@ -436,20 +446,21 @@ p {
     align-items: center;
     gap: var(--spacing-sm);
     padding: var(--spacing-lg);
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(73, 102, 61, 0.8);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(175, 195, 154, 0.3);
     border-radius: var(--radius-lg);
     text-decoration: none;
     color: var(--color-white);
     transition: var(--transition-normal);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hero-nav-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(73, 102, 61, 0.9);
+    border-color: rgba(175, 195, 154, 0.6);
     transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 .nav-icon {

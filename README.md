@@ -4,6 +4,11 @@ Modern, responsive ve GitHub Pages'de çalışan basit HTML/CSS/JavaScript web s
 
 ## 🚀 Özellikler
 
+- **Video Hero Section**: Arka plan videosu ile dinamik giriş sayfası
+- **Animasyonlu Logo**: Özel tasarım logo ile marka kimliği
+- **4 Ana Navigasyon**: Hakkımızda, Ürünlerimiz, Ar-Ge, İletişim
+- **Ar-Ge Bölümü**: İnovasyon ve teknoloji odaklı içerik
+- **Tanıtım Videosu**: Drone çekimleri ile hazırlanan video bölümü
 - **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
 - **Modern UI/UX**: Profesyonel tarım sitesi tasarımı
 - **Smooth Animasyonlar**: CSS ve JavaScript ile
@@ -20,8 +25,10 @@ koroglu-tarim-simple/
 ├── style.css           # CSS stilleri
 ├── script.js           # JavaScript fonksiyonları
 ├── images/             # Görseller
-│   ├── hero-bg.jpg     # Hero arka plan
+│   ├── hero-bg.jpg     # Hero arka plan (fallback)
 │   ├── sustainability.jpg
+│   ├── r-d.jpg         # Ar-Ge görseli
+│   ├── video-poster.jpg # Video poster
 │   ├── portakal.jpg
 │   ├── mandalina.jpg
 │   ├── limon.jpg
@@ -31,9 +38,46 @@ koroglu-tarim-simple/
 │   ├── zeytin.jpg
 │   ├── pamuk.jpg
 │   └── og.jpg          # Open Graph görseli
+├── videos/             # Video dosyaları
+│   ├── hero-video.mp4  # Hero arka plan videosu
+│   ├── hero-video.webm # Hero video (WebM format)
+│   ├── promotional-video.mp4 # Tanıtım videosu
+│   └── promotional-video.webm # Tanıtım video (WebM)
 ├── favicon.ico         # Site ikonu
 └── README.md           # Bu dosya
 ```
+
+## 🆕 Yeni Özellikler
+
+### Video Hero Section
+- Arka plan videosu ile dinamik giriş sayfası
+- Otomatik oynatma, sessiz ve döngü
+- Fallback görsel desteği
+- Mobil uyumlu video oynatma
+
+### Animasyonlu Logo
+- Özel tasarım logo elementi
+- Güneş, tarla çizgileri ve yaprak animasyonları
+- Meyve ikonları ile canlı görünüm
+- Responsive logo tasarımı
+
+### 4 Ana Navigasyon
+- **Hakkımızda**: Şirket bilgileri ve değerler
+- **Ürünlerimiz**: Ürün kataloğu
+- **Ar-Ge**: İnovasyon ve teknoloji
+- **İletişim**: İletişim bilgileri ve form
+
+### Ar-Ge Bölümü
+- Koyu yeşil arka plan ile profesyonel görünüm
+- Turuncu vurgu renkleri
+- İnovasyon odaklı içerik
+- Görsel destekli sunum
+
+### Tanıtım Videosu
+- Drone çekimleri ile hazırlanan video
+- Play butonu ile interaktif oynatma
+- Poster görsel desteği
+- Responsive video player
 
 ## 🎨 Tasarım Sistemi
 
@@ -44,6 +88,10 @@ koroglu-tarim-simple/
 - **Clay**: #E5863A (Turuncu)
 - **Ink**: #2A2A2A (Koyu gri)
 - **Milk**: #FAF9F7 (Açık krem)
+- **Dark Green**: #2D4A2A (Koyu yeşil)
+- **Light Green**: #8FBC8F (Açık yeşil)
+- **Orange**: #FF8C00 (Turuncu)
+- **Cream**: #F5F5DC (Krem)
 
 ### Tipografi
 - **Başlıklar**: Cormorant Garamond (Serif)
@@ -59,7 +107,7 @@ koroglu-tarim-simple/
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/kullanici-adi/koroglu-tarim.git
+   git remote add origin https://github.com/aksoycem/blindsonfarm.git
    git push -u origin main
    ```
 
@@ -69,14 +117,14 @@ koroglu-tarim-simple/
    - Branch: main
    - Folder: / (root)
 
-3. **Site URL**: `https://kullanici-adi.github.io/koroglu-tarim`
+3. **Site URL**: `https://aksoycem.github.io/blindsonfarm`
 
 ### Yerel Geliştirme
 
 1. **Dosyaları İndir**:
    ```bash
-   git clone https://github.com/kullanici-adi/koroglu-tarim.git
-   cd koroglu-tarim
+   git clone https://github.com/aksoycem/blindsonfarm.git
+   cd blindsonfarm
    ```
 
 2. **Basit HTTP Server**:

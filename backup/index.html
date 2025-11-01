@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Köroğlu Tarım - Sürdürülebilir Tarım ve Kaliteli Ürünler</title>
+    <meta name="description" content="Çukurova'nın bereketli topraklarında sürdürülebilir tarım yaparak, doğaya saygılı ve kaliteli ürünler yetiştiriyoruz. Narenciye, meyve ve endüstriyel ürünler.">
+    <meta name="keywords" content="tarım, sürdürülebilir tarım, narenciye, portakal, mandalina, limon, Çukurova, Mersin, Tarsus">
+    <meta name="author" content="Köroğlu Tarım">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Köroğlu Tarım - Sürdürülebilir Tarım ve Kaliteli Ürünler">
+    <meta property="og:description" content="Çukurova'nın bereketli topraklarında sürdürülebilir tarım yaparak, doğaya saygılı ve kaliteli ürünler yetiştiriyoruz.">
+    <meta property="og:image" content="./images/og.jpg">
+    <meta property="og:url" content="https://koroglu-tarim.github.io">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Köroğlu Tarım - Sürdürülebilir Tarım ve Kaliteli Ürünler">
+    <meta name="twitter:description" content="Çukurova'nın bereketli topraklarında sürdürülebilir tarım yaparak, doğaya saygılı ve kaliteli ürünler yetiştiriyoruz.">
+    <meta name="twitter:image" content="./images/og.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Skip to content link -->
+    <a href="#main-content" class="skip-link">Ana içeriğe geç</a>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <span class="logo-text">Köroğlu Tarım</span>
+                </a>
+                
+                <nav class="nav" id="nav">
+                    <a href="#home" class="nav-link">Ana Sayfa</a>
+                    <a href="#products" class="nav-link">Ürünler</a>
+                    <a href="#about" class="nav-link">Hakkımızda</a>
+                    <a href="#contact" class="nav-link">İletişim</a>
+                </nav>
+                
+                <a href="#contact" class="cta-button">Teklif Al</a>
+                
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menüyü aç/kapat">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section with Video -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="./videos/hero-video.mp4" type="video/mp4">
+                    <source src="./videos/hero-video.webm" type="video/webm">
+                    <!-- Fallback image if video doesn't load -->
+                    <img src="./images/hero-bg.jpg" alt="Köroğlu Tarım - Çukurova Tarım Arazisi">
+                </video>
+                <div class="hero-overlay"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Logo -->
+                    <div class="hero-logo">
+                        <div class="logo-container">
+                            <img src="./images/logo.png" alt="Köroğlu Tarım Logo" class="logo-image">
+                        </div>
+                        <h1 class="hero-title">
+                            <span class="logo-text-green">KÖROĞLU</span>
+                            <span class="logo-text-dark">TARIM</span>
+                        </h1>
+                        <p class="hero-subtitle">Çukurova'nın Bereketli Topraklarında Sürdürülebilir Tarım</p>
+                    </div>
+                    
+                    <!-- Navigation Buttons -->
+                    <div class="hero-navigation">
+                        <a href="#about" class="hero-nav-btn">
+                            <div class="nav-icon">🌱</div>
+                            <span>Hakkımızda</span>
+                        </a>
+                        <a href="#products" class="hero-nav-btn">
+                            <div class="nav-icon">🍊</div>
+                            <span>Ürünlerimiz</span>
+                        </a>
+                        <a href="#r-d" class="hero-nav-btn">
+                            <div class="nav-icon">🔬</div>
+                            <span>Ar-Ge</span>
+                        </a>
+                        <a href="#contact" class="hero-nav-btn">
+                            <div class="nav-icon">📞</div>
+                            <span>İletişim</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span class="scroll-text">Aşağı kaydır</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">Biz Kimiz?</p>
+                    <h2 class="section-title">Hakkımızda</h2>
+                    <p class="section-description">
+                        Çukurova'nın bereketli topraklarında doğmuş, geleneksel üretim anlayışını 
+                        modern tarım teknikleriyle birleştiren bir şirketiz
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <p class="about-text">
+                        Köroğlu Tarım, Çukurova'nın bereketli topraklarında doğmuş, geleneksel üretim 
+                        anlayışını modern tarım teknikleriyle birleştiren bir şirkettir. Narenciye başta 
+                        olmak üzere bölgenin en kaliteli meyvelerini yetiştiriyoruz.
+                    </p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🌱</div>
+                        <h3>Sürdürülebilir Tarım</h3>
+                        <p>Doğa dostu yöntemlerle toprağı koruyoruz</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⭐</div>
+                        <h3>Kaliteli Ürünler</h3>
+                        <p>En yüksek standartlarda üretim yapıyoruz</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🌍</div>
+                        <h3>Doğaya Saygı</h3>
+                        <p>Çevre bilinci ile geleceği koruyoruz</p>
+                    </div>
+                </div>
+
+                <div class="mission-vision">
+                    <div class="mission-card">
+                        <div class="card-header">
+                            <div class="card-icon">🎯</div>
+                            <div>
+                                <h3>Misyonumuz</h3>
+                                <div class="card-line"></div>
+                            </div>
+                        </div>
+                        <p>
+                            Misyonumuz; doğaya saygılı üretim yapmak, tüketiciye en sağlıklı ve güvenilir 
+                            ürünleri sunmak. Vizyonumuz; Türkiye'nin tarım gücünü uluslararası pazarlarda 
+                            büyütürken sürdürülebilirliği ilke edinmek.
+                        </p>
+                    </div>
+                    
+                    <div class="vision-card">
+                        <div class="card-header">
+                            <div class="card-icon">🔮</div>
+                            <div>
+                                <h3>Vizyonumuz</h3>
+                                <div class="card-line"></div>
+                            </div>
+                        </div>
+                        <p>
+                            Sürdürülebilir tarım alanında öncü olarak, gelecek nesillere daha yaşanabilir 
+                            bir dünya bırakmak için teknoloji ve geleneksel bilgiyi harmanlayarak, 
+                            doğaya saygılı üretim yöntemleri geliştirmek.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="values-section">
+                    <div class="values-header">
+                        <div class="values-icon">💎</div>
+                        <h3>Değerlerimiz</h3>
+                        <div class="values-line"></div>
+                    </div>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <div class="value-dot"></div>
+                            <span>Doğaya saygılı üretim yöntemleri</span>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-dot"></div>
+                            <span>Kalite ve güvenilirlik</span>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-dot"></div>
+                            <span>Sürdürülebilir tarım uygulamaları</span>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-dot"></div>
+                            <span>Toplumsal sorumluluk</span>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-dot"></div>
+                            <span>İnovasyon ve teknoloji</span>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-dot"></div>
+                            <span>Şeffaflık ve dürüstlük</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section class="section sustainability-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">İnovasyon ve teknoloji</p>
+                    <h2 class="section-title">Sürdürülebilirlik Anlayışımız</h2>
+                    <p class="section-description">
+                        Doğaya saygılı üretim yöntemleriyle gelecek nesillere daha iyi bir dünya bırakıyoruz
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="sustainability-content">
+                    <div class="sustainability-features">
+                        <div class="sustainability-card">
+                            <div class="sustainability-icon">🌱</div>
+                            <div>
+                                <h4>Doğa dostu yöntemler, minimum kimyasal kullanımı</h4>
+                                <p>Toprağın doğal yapısını koruyarak, minimum kimyasal kullanımı ile sağlıklı ürünler yetiştiriyoruz.</p>
+                            </div>
+                        </div>
+                        <div class="sustainability-card">
+                            <div class="sustainability-icon">💧</div>
+                            <div>
+                                <h4>Enerji verimliliği, suyun bilinçli kullanımı</h4>
+                                <p>Damlama sulama sistemleri ve akıllı su yönetimi ile %30 su tasarrufu sağlıyoruz.</p>
+                            </div>
+                        </div>
+                        <div class="sustainability-card">
+                            <div class="sustainability-icon">♻️</div>
+                            <div>
+                                <h4>Geri dönüşüm ve atık azaltımı</h4>
+                                <p>Organik atıkları kompost haline getirerek toprağa geri kazandırıyoruz.</p>
+                            </div>
+                        </div>
+                        <div class="sustainability-card">
+                            <div class="sustainability-icon">🌍</div>
+                            <div>
+                                <h4>Gelecek nesillere verimli topraklar</h4>
+                                <p>Sürdürülebilir tarım uygulamaları ile toprağın verimliliğini artırıyoruz.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sustainability-image">
+                        <div class="image-container">
+                            <img src="./images/sustainability.jpg" alt="Sürdürülebilir tarım uygulamaları" loading="lazy">
+                            <div class="image-overlay"></div>
+                        </div>
+                        <div class="achievements-card">
+                            <h4>Sürdürülebilirlik Başarılarımız</h4>
+                            <div class="achievements-grid">
+                                <div class="achievement-item">
+                                    <div class="achievement-number">%95</div>
+                                    <div class="achievement-label">Su Tasarrufu</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="achievement-item">
+                                    <div class="achievement-number">%80</div>
+                                    <div class="achievement-label">Kimyasal Azaltım</div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="section timeline-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">Yolculuğumuz</p>
+                    <h2 class="section-title">Tarihçemiz</h2>
+                    <p class="section-description">
+                        Çukurova'nın bereketli topraklarında geçirdiğimiz yolculuk
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-header">
+                                    <div class="timeline-icon">🌱</div>
+                                    <div>
+                                        <h3>Kuruluş</h3>
+                                        <div class="timeline-year">1970</div>
+                                    </div>
+                                </div>
+                                <p>Köroğlu Tarım, Çukurova'nın bereketli topraklarında küçük bir aile işletmesi olarak kuruldu.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item timeline-item-right">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-header">
+                                    <div class="timeline-icon">🚜</div>
+                                    <div>
+                                        <h3>Modernleşme</h3>
+                                        <div class="timeline-year">2003</div>
+                                    </div>
+                                </div>
+                                <p>Modern tarım tekniklerini benimseyerek üretim kapasitesini artırdık ve kalite standartlarını yükselttik.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-header">
+                                    <div class="timeline-icon">🌍</div>
+                                    <div>
+                                        <h3>Sürdürülebilirlik</h3>
+                                        <div class="timeline-year">2022</div>
+                                    </div>
+                                </div>
+                                <p>Sürdürülebilir tarım uygulamalarını hayata geçirdik ve çevre dostu üretim yöntemlerini benimsedik.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+
+                    <div class="timeline-item timeline-item-right">
+                        <div class="timeline-content">
+                            <div class="timeline-card">
+                                <div class="timeline-header">
+                                    <div class="timeline-icon">🚀</div>
+                                    <div>
+                                        <h3>Gelecek</h3>
+                                        <div class="timeline-year">Bugün</div>
+                                    </div>
+                                </div>
+                                <p>Teknoloji ve geleneksel bilgiyi harmanlayarak, gelecek nesillere daha iyi bir dünya bırakma hedefindeyiz.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-dot"></div>
+                    </div>
+                </div>
+
+                <div class="timeline-footer">
+                    <div class="timeline-message">
+                        <div class="message-dot"></div>
+                        <span>Geleceğe Doğru Yolculuğumuz Devam Ediyor</span>
+                        <div class="message-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- R&D Section -->
+        <section id="r-d" class="section r-d-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">İnovasyon ve Teknoloji</p>
+                    <h2 class="section-title">Ar-Ge Yaklaşımımız</h2>
+                    <p class="section-description">
+                        Geleceğin tarımını şekillendirecek yenilikçi ve sürdürülebilir çözümler geliştiriyoruz
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="r-d-content">
+                    <div class="r-d-text">
+                        <div class="r-d-intro">
+                            <h3>Geleceğe Yön Veren Ar-Ge Yaklaşımımız</h3>
+                            <p>
+                                Üretim faaliyetlerimizin yanı sıra, önde gelen tohum ve gübre şirketleriyle 
+                                aktif Ar-Ge çalışmaları yürütüyoruz.
+                            </p>
+                        </div>
+                        
+                        <div class="r-d-mission">
+                            <h4>Amacımız yalnızca bugünün ihtiyaçlarını karşılamak değil, geleceğin tarımını şekillendirecek yenilikçi ve sürdürülebilir çözümler geliştirmektir.</h4>
+                        </div>
+                        
+                        <div class="r-d-description">
+                            <p>
+                                Bilimsel işbirlikleri, modern teknolojiler ve uzman ekibimizle kendi üretimimizde 
+                                ve tarım ekosisteminde verimlilik, kalite ve çevre dostu uygulamaları destekliyoruz. 
+                                Ar-Ge, inovasyon kültürümüzün ve geleceğe olan sorumluluğumuzun temelini oluşturuyor.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="r-d-image">
+                        <img src="./images/r-d.jpg" alt="Ar-Ge ve İnovasyon" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Promotional Video Section -->
+        <section class="section video-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">Tanıtım</p>
+                    <h2 class="section-title">Köroğlu Tarım Tanıtım Videosu</h2>
+                    <p class="section-description">
+                        Drone çekimleriyle hazırlanan tanıtım videomuzu izleyin
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <video class="promotional-video" controls poster="./images/video-poster.jpg">
+                            <source src="./videos/promotional-video.mp4" type="video/mp4">
+                            <source src="./videos/promotional-video.webm" type="video/webm">
+                            Tarayıcınız video oynatmayı desteklemiyor.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-button" id="play-video">
+                                <div class="play-icon">▶</div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="section products-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">Doğal ve Kaliteli</p>
+                    <h2 class="section-title">Ürünlerimiz</h2>
+                    <p class="section-description">
+                        Çukurova'nın bereketli topraklarında yetiştirdiğimiz kaliteli ürünler
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/portakal.jpg" alt="Portakal" loading="lazy">
+                            <div class="product-badge">Pestisit minimum</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Portakal</h3>
+                            <p>Çukurova'nın en kaliteli portakalları, doğal yetiştirme yöntemleriyle</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Kasım–Mart</span>
+                                </div>
+                                <div class="product-category">narenciye</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/mandalina.jpg" alt="Mandalina" loading="lazy">
+                            <div class="product-badge">GlobalG.A.P aday</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Mandalina</h3>
+                            <p>Tatlı ve sulu mandalinalar, geleneksel tarım teknikleriyle</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Ekim–Şubat</span>
+                                </div>
+                                <div class="product-category">narenciye</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/limon.jpg" alt="Limon" loading="lazy">
+                            <div class="product-badge">Su verimliliği</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Limon</h3>
+                            <p>Yıl boyu taze limon, vitamin C açısından zengin</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Yıl Boyu</span>
+                                </div>
+                                <div class="product-category">narenciye</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/greyfurt.jpg" alt="Greyfurt" loading="lazy">
+                            <div class="product-badge">Organik sertifika</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Greyfurt</h3>
+                            <p>Antioksidan açısından zengin, sağlıklı greyfurt</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Aralık–Nisan</span>
+                                </div>
+                                <div class="product-category">narenciye</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/nar.jpg" alt="Nar" loading="lazy">
+                            <div class="product-badge">Yerel üretim</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Nar</h3>
+                            <p>Antalya'nın en kaliteli narları, doğal yetiştirme</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Eylül–Kasım</span>
+                                </div>
+                                <div class="product-category">meyve</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/incir.jpg" alt="İncir" loading="lazy">
+                            <div class="product-badge">Geleneksel üretim</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>İncir</h3>
+                            <p>Kurutulmuş ve taze incir, geleneksel yöntemlerle</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Ağustos–Ekim</span>
+                                </div>
+                                <div class="product-category">meyve</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/zeytin.jpg" alt="Zeytin" loading="lazy">
+                            <div class="product-badge">Soğuk sıkım</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Zeytin</h3>
+                            <p>Sızma zeytinyağı ve sofralık zeytin</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Ekim–Aralık</span>
+                                </div>
+                                <div class="product-category">yağ</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./images/pamuk.jpg" alt="Pamuk" loading="lazy">
+                            <div class="product-badge">Sürdürülebilir</div>
+                        </div>
+                        <div class="product-content">
+                            <h3>Pamuk</h3>
+                            <p>Yüksek kaliteli pamuk, sürdürülebilir üretim</p>
+                            <div class="product-footer">
+                                <div class="product-season">
+                                    <span class="season-icon">⏰</span>
+                                    <span>Hasat: Eylül–Kasım</span>
+                                </div>
+                                <div class="product-category">endüstri</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-footer">
+                    <a href="#contact" class="btn btn-primary">Tüm Ürünleri Gör</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-overline">Bizimle İletişime Geçin</p>
+                    <h2 class="section-title">İletişim</h2>
+                    <p class="section-description">
+                        Sorularınız için bizimle iletişime geçin. En kısa sürede size dönüş yapacağız.
+                    </p>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <div class="contact-form-card">
+                            <h3>Mesaj Gönderin</h3>
+                            <form class="contact-form" id="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Ad Soyad *</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-posta *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Konu</label>
+                                    <input type="text" id="subject" name="subject">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Mesaj *</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <label for="privacy">KVKK kapsamında kişisel verilerimin işlenmesini kabul ediyorum.</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-container">
+                        <div class="contact-info-card">
+                            <div class="contact-info-header">
+                                <div class="contact-info-icon">📞</div>
+                                <div>
+                                    <h3>İletişim Bilgileri</h3>
+                                    <div class="contact-info-line"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon-small">👤</div>
+                                    <div>
+                                        <h4>Ad Soyad</h4>
+                                        <p>Haşim Alphan Köroğlu</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon-small">📞</div>
+                                    <div>
+                                        <h4>Telefon</h4>
+                                        <a href="tel:+905360544545">+90 536 054 45 45</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon-small">📧</div>
+                                    <div>
+                                        <h4>E-posta</h4>
+                                        <a href="mailto:alphankoroglu03@gmail.com">alphankoroglu03@gmail.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon-small">📍</div>
+                                    <div>
+                                        <h4>Adres</h4>
+                                        <p>Yunusoğlu Mah. Yunusoğlu Sok. No:117, Tarsus/Mersin Türkiye</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="whatsapp-card">
+                            <div class="whatsapp-header">
+                                <div class="whatsapp-icon">💬</div>
+                                <div>
+                                    <h4>Hızlı İletişim</h4>
+                                    <p>WhatsApp üzerinden anında mesaj gönderin</p>
+                                </div>
+                            </div>
+                            <a href="https://wa.me/905360544545" target="_blank" class="btn btn-whatsapp">
+                                <span class="whatsapp-icon-btn">💬</span>
+                                WhatsApp ile İletişim
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <a href="#" class="footer-logo">
+                        <span class="footer-logo-text">Köroğlu Tarım</span>
+                    </a>
+                    <p class="footer-description">
+                        Çukurova'nın bereketli topraklarında sürdürülebilir tarım yaparak, 
+                        doğaya saygılı ve kaliteli ürünler yetiştiriyoruz.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/koroglu_tarim" target="_blank" aria-label="Instagram">
+                            <span class="social-icon">📷</span>
+                        </a>
+                        <a href="https://linkedin.com/company/koroglu-tarim" target="_blank" aria-label="LinkedIn">
+                            <span class="social-icon">💼</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>İletişim</h3>
+                    <div class="footer-contact">
+                        <p>Haşim Alphan Köroğlu</p>
+                        <p><a href="tel:+905360544545">+90 536 054 45 45</a></p>
+                        <p><a href="mailto:alphankoroglu03@gmail.com">alphankoroglu03@gmail.com</a></p>
+                        <p class="footer-address">Yunusoğlu Mah. Yunusoğlu Sok. No:117, Tarsus/Mersin Türkiye</p>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Hızlı Linkler</h3>
+                    <div class="footer-links">
+                        <a href="#home">Ana Sayfa</a>
+                        <a href="#products">Ürünler</a>
+                        <a href="#about">Hakkımızda</a>
+                        <a href="#contact">İletişim</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Köroğlu Tarım. Tüm hakları saklıdır.</p>
+                    <div class="footer-legal">
+                        <a href="#privacy">KVKK</a>
+                        <a href="#privacy">Gizlilik</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://aksoycem.github.io/blindsonfarm/sitemap.xml
+
+# Disallow
+Disallow: /backup/
+Disallow: /*.json$
+Disallow: /*.md$

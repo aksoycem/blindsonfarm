@@ -1,50 +1,67 @@
-# Köroğlu Tarım - Sürdürülebilir Tarım Web Sitesi
+# 🌱 Köroğlu Agriculture - Sustainable Farming Website
 
-Modern, responsive ve GitHub Pages'de çalışan basit HTML/CSS/JavaScript web sitesi.
+A modern, responsive website built for my friend's agricultural company. This project represents the digital presence of Köroğlu Agriculture, a family-owned farming business in Çukurova, Turkey, with over 50 years of experience in sustainable agriculture.
 
-## 🚀 Özellikler
+> **Note**: I'm proud to have built this website to help my friend establish their agricultural company's online presence. It was truly a pleasure to contribute to their business journey.
 
-- **Video Hero Section**: Arka plan videosu ile dinamik giriş sayfası
-- **Animasyonlu Logo**: Özel tasarım logo ile marka kimliği
-- **4 Ana Navigasyon**: Hakkımızda, Ürünlerimiz, Ar-Ge, İletişim
-- **Ar-Ge Bölümü**: İnovasyon ve teknoloji odaklı içerik
-- **Tanıtım Videosu**: Drone çekimleri ile hazırlanan video bölümü
-- **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
-- **Modern UI/UX**: Profesyonel tarım sitesi tasarımı
-- **Smooth Animasyonlar**: CSS ve JavaScript ile
-- **SEO Optimized**: Arama motorları için optimize edilmiş
-- **Accessibility**: WCAG uyumlu
-- **Fast Loading**: Optimize edilmiş görseller ve kod
-- **GitHub Pages Ready**: Direkt GitHub'da yayınlanabilir
+## 🎯 Project Purpose
 
-## 📁 Dosya Yapısı
+This website serves as the official digital platform for Köroğlu Agriculture, showcasing their:
+- Premium citrus and fruit products
+- Sustainable farming practices since 1970
+- R&D initiatives and innovation
+- Company history and values
+- Contact information for business inquiries
+
+## ✨ Features
+
+- **🎥 Video Hero Section**: Dynamic landing page with background video
+- **🎨 Animated Logo**: Custom-designed brand identity with animations
+- **🧭 Dual Language Support**: Full English and Turkish versions (index.html & index_tr.html)
+- **📱 Fully Responsive**: Perfect display on all devices (mobile, tablet, desktop)
+- **🎬 Promotional Video**: Showcase section with company introduction video
+- **📊 Timeline Section**: Animated company history from 1970 to present
+- **🍊 Product Showcase**: Grid layout featuring 8 premium products
+- **🔬 R&D Section**: Innovation and technology-focused content
+- **💬 WhatsApp Integration**: Floating button + dedicated contact card
+- **📞 Contact Cards**: Beautiful contact section with phone, email, address, and WhatsApp
+- **🎯 SEO Optimized**: Complete meta tags, sitemap, robots.txt, and structured data
+- **⚡ Fast Loading**: Optimized images and code
+- **♿ Accessible**: WCAG compliant design
+- **🚀 GitHub Pages Ready**: Deploy directly from repository
+
+## 📁 File Structure
 
 ```
 koroglu-tarim-simple/
-├── index.html          # Ana sayfa
-├── style.css           # CSS stilleri
-├── script.js           # JavaScript fonksiyonları
-├── images/             # Görseller
-│   ├── hero-bg.jpg     # Hero arka plan (fallback)
-│   ├── sustainability.jpg
-│   ├── r-d.jpg         # Ar-Ge görseli
-│   ├── video-poster.jpg # Video poster
-│   ├── portakal.jpg
-│   ├── mandalina.jpg
-│   ├── limon.jpg
-│   ├── greyfurt.jpg
-│   ├── nar.jpg
-│   ├── incir.jpg
-│   ├── zeytin.jpg
-│   ├── pamuk.jpg
-│   └── og.jpg          # Open Graph görseli
-├── videos/             # Video dosyaları
-│   ├── hero-video.mp4  # Hero arka plan videosu
-│   ├── hero-video.webm # Hero video (WebM format)
-│   ├── promotional-video.mp4 # Tanıtım videosu
-│   └── promotional-video.webm # Tanıtım video (WebM)
-├── favicon.ico         # Site ikonu
-└── README.md           # Bu dosya
+├── index.html                      # Main page (English)
+├── index_tr.html                   # Turkish version
+├── style.css                       # All CSS styles
+├── script.js                       # JavaScript functionality
+├── sitemap.xml                     # SEO sitemap
+├── robots.txt                      # Search engine instructions
+├── images/                         # Image assets
+│   ├── logo.png                    # Company logo
+│   ├── logo.svg                    # Logo (vector)
+│   ├── 1970 ilk adımlar kısmı.jpeg # Timeline: 1970
+│   ├── 2003 ilk bahçemiz kısmı.jpeg # Timeline: 2003
+│   ├── 2022 şirketleşme kısmı.jpeg # Timeline: 2022
+│   ├── bugün kısmı.jpeg            # Timeline: Today
+│   ├── biz kimiz misyon kısmı.jpeg # About section background
+│   ├── arge yaklaşım kısmı.jpeg    # R&D section image
+│   ├── portakal.jpeg               # Product: Orange
+│   ├── mandalina.jpeg              # Product: Mandarin
+│   ├── limon.jpeg                  # Product: Lemon
+│   ├── nar.jpeg                    # Product: Pomegranate
+│   ├── şeftali.jpeg                # Product: Peach
+│   ├── kayısı.jpeg                 # Product: Apricot
+│   ├── nektarin.jpeg               # Product: Nectarine
+│   └── mısır.jpeg                  # Product: Corn
+├── videos/                         # Video files
+│   ├── hero-video.mp4              # Hero background video
+│   └── WhatsApp Video 2025-11-01.mp4 # Promotional video
+├── favicon.ico                     # Site icon
+└── README.md                       # This file
 ```
 
 ## 🆕 Yeni Özellikler
@@ -190,9 +207,35 @@ koroglu-tarim-simple/
 - **E-posta**: alphankoroglu03@gmail.com
 - **Adres**: Yunusoğlu Mah. Yunusoğlu Sok. No:117, Tarsus/Mersin Türkiye
 
-## 📄 Lisans
+## 🔒 Privacy & Security Notice
 
-Bu proje MIT lisansı altında lisanslanmıştır.
+This repository contains publicly accessible information about Köroğlu Agriculture. All contact information, business details, and media content shared here are:
+
+- **Publicly Available**: Contact details (phone, email, address) are intentionally public for business purposes
+- **Business Information**: All company information is meant for public viewing and customer outreach
+- **No Sensitive Data**: No private customer data, financial information, or confidential business secrets are stored in this repository
+- **Media Rights**: All images and videos are owned by Köroğlu Agriculture and used with permission
+- **Open Source**: The code is open source, but the brand assets and content remain property of Köroğlu Agriculture
+
+### ⚠️ Important Notes
+
+- **Contact Information**: The phone number, email, and address displayed are official business contact points
+- **WhatsApp Integration**: The WhatsApp link is intentionally public for customer communication
+- **No Personal Data Collection**: This static website does not collect, store, or process any user data
+- **Third-Party Services**: Links to external services (Google Maps, WhatsApp) are governed by their respective privacy policies
+
+## 📄 License
+
+**Code**: MIT License - Feel free to use the code structure and design patterns  
+**Content & Brand Assets**: © 2024 Köroğlu Agriculture - All rights reserved
+
+The website code (HTML, CSS, JavaScript) is open source under MIT License. However, all brand-specific content including:
+- Company name and logo
+- Product images and videos
+- Business information and text content
+- Promotional materials
+
+...remain the intellectual property of Köroğlu Agriculture and may not be used without permission.
 
 ## 🤝 Katkıda Bulunma
 
@@ -214,4 +257,17 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ---
 
-**Köroğlu Tarım** - Çukurova'nın bereketli topraklarında sürdürülebilir tarım 🌱
+## 💚 Acknowledgments
+
+This website was built with care and dedication to support my friend's agricultural business. I'm honored to contribute to Köroğlu Agriculture's digital journey and help showcase their commitment to sustainable farming.
+
+**Special Thanks**:
+- To Haşim Alphan Köroğlu for trusting me with this project
+- To the Köroğlu family for their 50+ years of dedication to sustainable agriculture
+- To everyone who supports local, sustainable farming practices
+
+---
+
+**Köroğlu Agriculture** - Sustainable farming in the fertile lands of Çukurova since 1970 🌱
+
+**Live Website**: [https://aksoycem.github.io/blindsonfarm/](https://aksoycem.github.io/blindsonfarm/)

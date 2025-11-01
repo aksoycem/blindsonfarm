@@ -498,7 +498,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.25;
     z-index: 0;
 }
 
@@ -1725,11 +1725,27 @@ body {
     
     .hero-title {
         font-size: var(--text-4xl);
+        text-align: center;
+    }
+    
+    .hero-subtitle {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .hero-navigation {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
+        justify-items: center;
+        text-align: center;
+    }
+    
+    .hero-nav-btn {
+        width: 100%;
+        max-width: 300px;
+        text-align: center;
+        justify-content: center;
     }
     
     .section-title {

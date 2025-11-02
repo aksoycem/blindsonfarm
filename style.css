@@ -239,6 +239,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    background-color: #1a1a1a;
 }
 
 .hero-background {

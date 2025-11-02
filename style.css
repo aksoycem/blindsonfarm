@@ -1724,6 +1724,25 @@ body {
 }
 
 @media (max-width: 768px) {
+    .header {
+        padding: var(--spacing-xs) 0;
+    }
+    
+    .header-content {
+        padding: var(--spacing-md) 0;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+    
+    .logo-image {
+        max-width: 180px !important;
+        height: auto;
+    }
+    
     .nav {
         display: none;
     }
@@ -1732,9 +1751,15 @@ body {
         display: flex;
     }
     
+    .hero {
+        padding-top: 100px;
+        min-height: 100vh;
+    }
+    
     .hero-title {
         font-size: var(--text-4xl);
         text-align: center;
+        margin-top: var(--spacing-xl);
     }
     
     .hero-subtitle {
